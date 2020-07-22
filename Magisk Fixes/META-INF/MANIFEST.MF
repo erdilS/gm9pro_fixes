@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: Lzl1y1cC6TvXytLj6okU81/P8AA=
+
+Name: system/priv-app/ims/ims.apk
+SHA1-Digest: nWjr2zVxR53ddshPS6bjvl3i5K8=
+
+Name: install.sh
+SHA1-Digest: RTDgg9HimcQT4xTaE9pkZbSD9bc=
+
+Name: system/priv-app/ims/lib/arm64/libimsmedia_jni.so
+SHA1-Digest: RIeVpzu/cvwMmHb4ahN2kTnqgCI=
+
+Name: system/usr/keylayout/gpio-keys.kl
+SHA1-Digest: uzwg2E4/g/KIhJSTsHhnTM+SPr8=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: /Yryw1q/0BO5ZwG+RgKhQPQt9Vw=
+
+Name: system/etc/permissions/android.hardware.telephony.ims.xml
+SHA1-Digest: 108o1UXQoQb4T8D51gNPup3S2Ug=
+
+Name: system.prop
+SHA1-Digest: 86zrfgNzvEot03gexWN7Zlae/Hs=
+
+Name: system/etc/permissions/qti.xml
+SHA1-Digest: 0HZ9htc80GrqagCOX+KLPkn8/DU=
+
+Name: README.md
+SHA1-Digest: /G8EC38mtmnufw/knpCcX96EfN8=
+
+Name: module.prop
+SHA1-Digest: hrVug+VT2xWYkp5rE7nTXRn8Vsw=
+
+Name: post-fs-data.sh
+SHA1-Digest: 0M9TU0g5Zp4SGeQgxr3GSmQg6so=
+
+Name: system/priv-app/ims/lib/arm64/libimscamera_jni.so
+SHA1-Digest: Qf2fqhCBjJ98WhTTcqB/ebDKDao=
+

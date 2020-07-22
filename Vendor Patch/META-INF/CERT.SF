@@ -1,0 +1,31 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: zudkezhZKB+2h1w2KBY25NprnF4=
+Created-By: 1.0 (Android SignApk)
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: IYpYTfv+URztl9tnC33USKs4+0w=
+
+Name: install/bin/vendor/etc/media_profiles_V1_0.xml
+SHA1-Digest: EdLICFaezhKhmXG8GS8BpPHo3aU=
+
+Name: install/bin/busybox
+SHA1-Digest: BlZ3MNNKMpw+6WxoQ4NZdI9reNw=
+
+Name: install/bin/configure.sh
+SHA1-Digest: KRHncVzR4VaHRtZOtKlccTQxcjk=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: auQMKaIUjWvz9SVGYxb0WVUfFKs=
+
+Name: install/bin/vendor/etc/audio/audio_policy_configuration.xml
+SHA1-Digest: Sc8NscW7dsOUXNisFVRz64xbaYU=
+
+Name: install/bin/dalvik.sh
+SHA1-Digest: FBB/TJ0tvRRtKZq9jSayTuMQbJE=
+
+Name: install/bin/vendor/etc/fstab.qcom
+SHA1-Digest: Q0JXFXhJ3fowJ+MzSuBT07y3VUk=
+
+Name: install/bin/installer.sh
+SHA1-Digest: ursjr+h2DVptZEB2k44lhm67PLU=
+

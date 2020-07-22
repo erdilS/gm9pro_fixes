@@ -1,0 +1,60 @@
+ui_print(" ");
+ui_print("*******************************************");
+ui_print("*      	 GM 9 Pro GSI Fix Paketi	 	*");
+ui_print("*            | By @erdilS |           	*");
+ui_print("*******************************************");
+ui_print("");
+package_extract_dir("install", "/tmp/install");
+set_metadata_recursive("/tmp/install", "uid", 0, "gid", 0, "dmode", 0755, "fmode", 0644);
+set_metadata_recursive("/tmp/install/bin", "uid", 0, "gid", 0, "dmode", 0755, "fmode", 0755);
+run_program("/tmp/install/bin/configure.sh");
+
+show_progress(1.000000, 0);
+ui_print(" ");
+ui_print("Sistem ve Vendor Bağlanıyor...");
+run_program("/sbin/busybox", "mount", "/system");
+run_program("/sbin/busybox", "mount", "/vendor");
+run_program("/sbin/sleep", "3");
+set_progress(0.100000);
+
+ui_print(" ");
+ui_print("Yüklemeye Hazırlanılıyor...");
+run_program("/sbin/sleep", "3");
+set_progress(0.300000);
+
+ui_print(" ");
+ui_print("Yükleniyor...");
+run_program("/tmp/install/bin/installer.sh");
+run_program("/sbin/sleep", "3");
+set_progress(0.500000);
+
+ui_print(" ");
+ui_print("Proplar Ekleniyor...");
+run_program("/tmp/install/bin/dalvik.sh");
+run_program("/sbin/sleep", "3");
+set_progress(0.600000);
+
+ui_print(" ");
+ui_print("İzinler Ayarlanıyor...");
+run_program("/sbin/sleep", "3");
+set_progress(0.700000);
+
+ui_print(" ");
+ui_print("Sistem ve Vendor Bağlantısı Kesiliyor...");
+ifelse(is_mounted("/vendor"), unmount("/vendor"));
+run_program("/sbin/busybox", "umount", "/system");
+run_program("/sbin/sleep", "3");
+set_progress(0.800000);
+
+ui_print(" ");
+ui_print("*******************************************");
+ui_print("*               Fix Kuruldu.              *");
+ui_print("*******************************************");
+set_progress(0.900000);
+
+ui_print(" ");
+ui_print("*******************************************");
+ui_print("*        DT2W ve voLTE fixi için          *");
+ui_print("*  		Magisk modülünü kurun           *");
+ui_print("*******************************************");
+set_progress(1.000000);

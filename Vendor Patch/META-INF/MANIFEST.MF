@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (JRummy Apps Inc.)
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: Mzbh7XB71WEIm8SZz5D9QhakZUo=
+
+Name: install/bin/vendor/etc/media_profiles_V1_0.xml
+SHA1-Digest: FKqA6OBOITmBYzKPIUZ9GlVkqv0=
+
+Name: install/bin/busybox
+SHA1-Digest: JhodqjvSD8K5UpKVrxU+W5uvVcw=
+
+Name: install/bin/configure.sh
+SHA1-Digest: I3fKLAjgFKeNIWAJYuJGwPglk/0=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: XUhBaAVGfbbJGAQ2YvOhUORiuhk=
+
+Name: install/bin/vendor/etc/audio/audio_policy_configuration.xml
+SHA1-Digest: ElLOjMF6vzrdTdpqDLDHM/daHCc=
+
+Name: install/bin/dalvik.sh
+SHA1-Digest: 372cF1Apmxotmuo9pmC7jXqyRZ0=
+
+Name: install/bin/vendor/etc/fstab.qcom
+SHA1-Digest: EKHwZIpprQYqfUBh7my/E0yRnp8=
+
+Name: install/bin/installer.sh
+SHA1-Digest: payWUTSxZGAf4N46I7v+TH0dbBc=
+
