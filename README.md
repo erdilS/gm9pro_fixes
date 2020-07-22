@@ -1,6 +1,6 @@
 # GM 9 Pro Fix Paketleri
 GM 9 Pro için çeşitli hata düzeltme paketleri
-Sadece Android 10 (Ql sürümünda PHH tabanlı GSI'larda (Generic System Image) çalışmaktadır.
+Sadece Android 10 (Q) sürümünde PHH tabanlı GSI'larda (Generic System Image) çalışmaktadır.
 
 Vendor Patch tek seferliktir. Magisk modülleri her romdan sonra kurulmalıdır.
 
