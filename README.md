@@ -8,6 +8,9 @@ Vendor Patch tek seferliktir. Magisk modülleri her romdan sonra kurulmalıdır.
 -4K çekim
 -Bluetooth ses
 -Şifreleme
+-AOD/Ortam Ekranı
+-Batarya boyutu
+-DT2W
 
 # Magisk fixi şunları içermektedir:
 -VoLTE
