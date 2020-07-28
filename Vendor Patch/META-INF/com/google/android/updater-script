@@ -1,8 +1,8 @@
 ui_print(" ");
 ui_print("*******************************************");
-ui_print("*      	 GM 9 Pro GSI Fix Paketi	 	*");
+ui_print("*     GM 9 Pro GSI Fix Paketi V2*");
 ui_print("*            | By @erdilS |           	*");
-ui_print("*******************************************");
+ui_print("******************************************");
 ui_print("");
 package_extract_dir("install", "/tmp/install");
 set_metadata_recursive("/tmp/install", "uid", 0, "gid", 0, "dmode", 0755, "fmode", 0644);
@@ -29,12 +29,6 @@ run_program("/sbin/sleep", "3");
 set_progress(0.500000);
 
 ui_print(" ");
-ui_print("Proplar Ekleniyor...");
-run_program("/tmp/install/bin/dalvik.sh");
-run_program("/sbin/sleep", "3");
-set_progress(0.600000);
-
-ui_print(" ");
 ui_print("İzinler Ayarlanıyor...");
 run_program("/sbin/sleep", "3");
 set_progress(0.700000);
@@ -54,7 +48,7 @@ set_progress(0.900000);
 
 ui_print(" ");
 ui_print("*******************************************");
-ui_print("*        DT2W ve voLTE fixi için          *");
+ui_print("*           voLTE fixi için          *");
 ui_print("*  		Magisk modülünü kurun           *");
 ui_print("*******************************************");
 set_progress(1.000000);
